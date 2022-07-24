@@ -1,0 +1,73 @@
+body{
+    background: url(fundo1.jpg);
+}
+
+.intro{
+    text-align: center;
+    color: blueviolet;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: relative;
+    left: 300px;
+}
+.cad{
+    position: relative;
+    left: 372px;
+    font-size: 20px;
+}
+
+.bot{
+    position: relative;
+    left: 590px;
+    font-size: 20px;
+}
+
+.button{
+    display: grid;
+    justify-self: center;
+    width: 50%;
+}
+
+.listas{
+    display: flex;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    align-items: space-between; 
+    justify-content: space-around;
+    color: white;
+    font-size: 30px;
+    flex-direction: row;
+    
+}
+
+.jun{
+    grid-column: 1/1;
+    flex-flow: column;
+	background-color: #f5005e;
+    padding: 2px 50px 5px 50px;
+}
+
+.mas{
+    grid-column: 2/2;
+    flex-flow: row-reverse;
+	background-color: #8B008B;
+    padding: 2px 50px 5px 50px;
+}
+
+.sen{
+    grid-column: 3/3;
+    flex-flow: column;
+	background-color: #00008B;
+    padding: 2px 50px 5px 50px;
+}
+
+.rodape{
+    color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
